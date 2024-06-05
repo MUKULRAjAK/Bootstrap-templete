@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./assest/sytle.css" />
+    <title>Piecodes</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: gray;"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assest/brand_logo.png" width="80px"  alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Client</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Service
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><a class="dropdown-item" href="#">App Development</a></li>
+                <li><a class="dropdown-item" href="#">SEO</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- slidr -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assest/slider-111.avif"
+            class="d-block w-100"
+            alt="..."
+            height="600px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assest/silder-3.avif"
+            class="d-block w-100"
+            alt="#"
+            height="600px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assest/slider-2.avif"
+            class="d-block w-100"
+            alt="..."
+            height="600px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="row justify-content-evenly">
+        <p class="text-center fs-2 my-4 border border-bordered">
+          Hello There, This is a PieCodes. We Provides Software and web
+          appllication in low prize
+        </p>
+        <div class="col-lg-3 text-center text-center pt-5 mt-5">
+          <h1><i class="bi bi-code-slash text-primary"></i></h1>
+          <h5>Built for Developers</h5>
+          <p>
+            Data structures are the building blocks, algorithms the recipes -
+            mastering both empowers you to craft efficient and innovative
+            solutions.
+          </p>
+        </div>
+        <div class="col-lg-3 text-center text-center pt-5 mt-5">
+          <h1><i class="bi bi-laptop text-danger"></i></h1>
+          <h5>Builds for Engineers</h5>
+          <p>
+            A good developer solves problems elegantly, not just efficiently.
+          </p>
+        </div>
+        <div class="col-lg-3 text-center pt-5 m-lg-5">
+          <h1><i class="bi bi-cpu text-success"></i></h1>
+          <h5>Builds For Coders</h5>
+          <p>
+            (While code can't directly cause attraction, here's a playful
+            example) flirtyFunction(wittyMessage, genuineCuriosity)
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="row justify-content-evenly pt-3 pb-5">
+        <div class="col-md-5 pt-3">
+          <img src="https://images.unsplash.com/photo-1580894908361-967195033215?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="#" class="img-fluid" />
+        </div>
+        <div class="col-md-5 pt-3">
+          <h5 class="mt-3">Web Development</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-success"
+              role="progressbar"
+              style="width: 25%;"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h5 class="mt-3">App Development</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 50%;"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h5 class="mt-3">Blockchain Development</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-warning"
+              role="progressbar"
+              style="width: 75%;"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div >
+          <h5 class="mt-3">Nft Development</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-danger"
+              role="progressbar"
+              style="width: 100%;"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h5 class="mt-3">Personality Development</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary"
+              role="progressbar"
+              style="width: 100%;"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <!-- contant section -->
+      <div class="row  justify-content-evenly pt-2 pb-5" style="background: #f1f1f1;">
+        <div class="col-md-5 mt-5 mb-5">
+         <h3 class="mb-4">Contact Form</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+              <div id="name" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message to Piecodes</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-5 mt-5 mb-5 ">
+          <h3 class="mb-4">Address</h3>
+          <p>1st Floor, Royal Heights, Krisnani Nagar, <br> Guna, Madhya Pradesh 473001 
+           <br> <i class="bi bi-telephone-inbound-fill"></i> : 877074395</p>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14506.9924754662!2d77.3001762!3d24.6323648!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397a5b1274e8c07d%3A0xbf6db5bcd04607e3!2sPieCodes%20Private%20Limited!5e0!3m2!1sen!2sin!4v1717507311754!5m2!1sen!2sin" style="width: 100%;" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <!-- Terms and conditions -->
+      <div class="row justify-content-evenly pt-5 pb-5">
+        <div class="col-md-10">
+          <h3 class="text-center pb-4">FAQ</h3>
+          <div class="accordion accordion-flush border" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+Web Developer
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample ">
+                <div class="accordion-body">PieCodes is the experience-driven software strategy, design and development. We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the customer, which shapes the design and development of new solutions and experiences. We have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all touch points across the user journey.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+App Developer
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+Ios Development
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row justify-content-evenly bg-dark text-white">
+        <h3 class="text-center">PieCodes</h3>
+        <div class="col-md-3 pt-4">
+          <h5 class="pb-2 mt-2">Piecodes</h5>
+<p>PieCodes is the experience-driven software strategy, design and development. We have a unique and established methodology </p>
+        </div>
+        <div class="col-md-3 pt-4">
+          <h5 class="pb-2">Importans Links</h5>
+          <p>
+            <a href="#" class="link-light text-decoration-none">Home</a> <br>
+            <a href="#" class="link-light text-decoration-none">About Us</a> <br>
+            <a href="#" class="link-light text-decoration-none">Contact Us</a> <br> 
+            <a href="#" class="link-light text-decoration-none">Chat</a><br> 
+            <a href="#" class="link-light text-decoration-none">Email</a> <br>
+
+          </p>
+        </div>
+        <div class="col-md-3 pt-4">
+          <h5 class="pb-2">Contact Us</h5>
+          <p>
+            1st Floor, Royal Heights, Krisnani Nagar, <br> Guna, Madhya Pradesh 473001 
+           <br> <i class="bi bi-telephone-inbound-fill"></i> : 877074395
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
